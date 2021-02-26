@@ -1,0 +1,116 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Manrope";
+  line-height: 2;
+}
+
+.card {
+  border-radius: 15px;
+  margin-top: 15%;
+  width: 60%;
+}
+
+.card-title {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+
+.card-text {
+  color: hsl(212, 23%, 69%);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.card-img {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height: 100%;
+}
+
+.media {
+  display: flex;
+}
+
+.media-body {
+  padding-left: 10px;
+}
+
+.media-image {
+  width: 20px;
+  height: 20px;
+  margin: 7px;
+}
+
+.media-text {
+  margin: 7px;
+}
+
+.avatar-image {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.author-name {
+  color: hsl(214, 17%, 51%);
+  font-weight: 700;
+}
+
+.share-image {
+  margin-top: 7px;
+  width: 70%;
+}
+
+.circle {
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 100%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+.circle:hover {
+  cursor: pointer;
+}
+
+.circle-selected, .popover {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.card-footer {
+  background-color: #fff;
+  border-top: none;
+  margin: 0;
+}
+
+.share-links, .popover-body {
+  color: hsl(210, 46%, 95%);
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+ }
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
+
+@media screen and (max-width: 768px) {
+  .card {
+    margin-top: 5%;
+    width: 80%;
+  }
+
+  .card-img {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+  }
+}
